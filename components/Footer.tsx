@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <footer className="text-body-text mb-1">
+    <footer className="mb-1 text-body-text">
       <ul className="flex flex-row pl-1 pr-2">
         <li className="mr-3">
           <a>

@@ -4,8 +4,8 @@ import Footer from "@/components/Footer";
 
 export default function Main() {
   return (
-    <main className="bg-base flex h-screen w-screen">
-      <div className="bg-main-texture flex h-screen w-screen flex-col">
+    <main className="flex h-screen w-screen bg-base">
+      <div className="flex h-screen w-screen flex-col bg-main-texture">
         <Home />
         <Footer />
       </div>

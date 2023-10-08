@@ -1,9 +1,9 @@
 function Home() {
   return (
-    <div className="text-body-text flex h-full w-full flex-col justify-between">
+    <div className="flex h-full w-full flex-col justify-between text-body-text">
       <div className="flex h-auto w-full flex-col space-y-6 pl-9 pt-9">
         <h1 className="text-6xl font-[600]">Lucas Furlong</h1>
-        <h1 className="text-highlight text-5xl font-[400]">
+        <h1 className="text-5xl font-[400] text-highlight">
           Software Engineer
         </h1>
       </div>
@@ -15,7 +15,7 @@ function Home() {
       <div className="flex h-auto w-full flex-col items-end justify-end space-y-6 pr-9">
         <h1 className="text-6xl">Inspired by Innovation</h1>
         <h1 className="text-6xl">Dedicated to Difference</h1>
-        <h1 className="text-highlight text-6xl font-[500]">
+        <h1 className="text-6xl font-[500] text-highlight">
           <a>Find out how</a>
         </h1>
       </div>
