@@ -1,11 +1,12 @@
 import Image from "next/image";
+import ContactLink from "./ContactLink";
 
 function Footer() {
   return (
     <footer className="mb-1 text-body-text">
       <ul className="flex flex-row pl-1 pr-2">
         <li className="mr-3">
-          <a>
+          <a href="https://github.com/lucas-codes-stuff">
             <Image
               src="/github-mark.svg"
               width={27}
@@ -15,7 +16,7 @@ function Footer() {
           </a>
         </li>
         <li className="mr-3">
-          <a>
+          <a href="https://www.linkedin.com/in/lucas-furlong/">
             <Image
               src="/linkedin.svg"
               width={27}
@@ -25,14 +26,7 @@ function Footer() {
           </a>
         </li>
         <li>
-          <a>
-            <Image
-              src="/email.png"
-              width={27}
-              height={27}
-              alt="Contact form button"
-            />
-          </a>
+          <ContactLink></ContactLink>
         </li>
       </ul>
     </footer>

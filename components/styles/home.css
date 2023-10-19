@@ -1,0 +1,28 @@
+.box {
+    transition: transform 0.3s, z-index 0.3s, box-shadow 0.3s; /* Add box-shadow to the transition */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow */
+}
+
+.hover\:box:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+
+  .box-image {
+    transition: opacity 3s ease-in-out;
+    opacity: 0;
+    /* rest of the styles */
+  }
+  
+  .visible {
+    opacity: 1;
+  }
+  
+  .hidden {
+    opacity: 0;
+  }
+
+  .shadow-text {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
