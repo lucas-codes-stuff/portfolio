@@ -25,6 +25,16 @@ function Footer() {
             />
           </a>
         </li>
+        <li className="mr-3">
+          <a href="https://dribbble.com/LucasF67">
+            <Image
+              src="/dribbble.svg"
+              width={27}
+              height={27}
+              alt="LinkedIn Logo with link taking you to Lucas Furlong's LinkedIn account"
+            />
+          </a>
+        </li>
         <li>
           <ContactLink></ContactLink>
         </li>
