@@ -19,6 +19,7 @@ const config: Config = {
         secondary: "#FFDAB3", // Peach
         accent: "#FFA471", // Soft Orange
         highlight: "#FF6F3D", // Bright Orange
+        complementary: "#FF7F50", // Coral
         "body-text": "#333333", // A soft black or dark gray
       },
     },

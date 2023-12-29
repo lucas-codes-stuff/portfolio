@@ -1,0 +1,11 @@
+.transition-wrapper {
+    transition: grid-template-rows 0.4s ease-in-out;
+}
+
+.rotate-chevron, .initial-chevron {
+    transition: transform 0.4s ease-in-out;
+}
+  
+.rotate-chevron {
+    transform: rotate(-180deg);
+}
