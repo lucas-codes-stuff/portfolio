@@ -32,7 +32,7 @@ export default function About() {
           <h2 className="mb-3 text-2xl font-semibold">
             OWL Computing Development
           </h2>
-          <div className="text-complementary mb-3 w-[85%] text-center italic">
+          <div className="mb-3 w-[85%] text-center italic text-complementary">
             I&apos;m a Full-Stack Developer creating custom software solutions,
             from websites to complex hardware integrations. My work spans design
             to deployment, focusing on innovative, client-centered development.
@@ -115,7 +115,7 @@ export default function About() {
                 <span className="mt-4 text-lg font-semibold text-highlight">
                   Coding and Technology
                 </span>
-                <span className="text-complementary text-center">
+                <span className="text-center text-complementary">
                   From my first day working with ROBOTC in an engineering class,
                   I developed a love for technology and coding that continues to
                   grow. This initial spark led me to immerse myself in various
@@ -126,7 +126,7 @@ export default function About() {
                 <span className="mt-2 text-lg font-semibold text-highlight">
                   Personal Growth and Mindset
                 </span>
-                <span className="text-complementary text-center">
+                <span className="text-center text-complementary">
                   I am someone who believes there is always room for improvement
                   in every aspect of life, be it professional, physical, or
                   mental. This drive for constant self-betterment is something I
@@ -138,7 +138,7 @@ export default function About() {
                 <span className="mt-2 text-lg font-semibold text-highlight">
                   Military Experience
                 </span>
-                <span className="text-complementary text-center">
+                <span className="text-center text-complementary">
                   My military experience has significantly honed these
                   qualities. Achieving Honor Graduate and Distinguished Honor
                   Graduate in Basic Combat Training and Advanced Individual
@@ -154,7 +154,7 @@ export default function About() {
                 <span className="mt-2 text-lg font-semibold text-highlight">
                   Jiu-Jitsu
                 </span>
-                <span className="text-complementary text-center">
+                <span className="text-center text-complementary">
                   Beyond my professional and military pursuits, I have a
                   profound passion for jiu-jitsu. This martial art challenges
                   both my physical and mental limits. Achieving my blue belt was
@@ -167,7 +167,7 @@ export default function About() {
                 <span className="mt-2 text-lg font-semibold text-highlight">
                   Photography
                 </span>
-                <span className="text-complementary text-center">
+                <span className="text-center text-complementary">
                   Photography is another hobby that holds a special place in my
                   life. It allows me to capture and appreciate the world from
                   unique perspectives, further enriching my understanding of the
