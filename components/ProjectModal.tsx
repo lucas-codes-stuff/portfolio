@@ -22,7 +22,19 @@ const ProjectModal: FC<ModalProps> = ({ open, id, close }) => {
   return (
     <Modal open={open} onClose={close}>
       <Box sx={style}>
-        <div>test123 {id}</div>
+        <div className="flex flex-col">
+          <h1 className="text-center text-3xl">Project {id}</h1>
+          <p className="mt-3 text-center text-lg">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            quibusdam, voluptatibus, quia, quod voluptate natus doloribus
+            voluptatum quas quos doloremque dolorum? Quisquam quibusdam,
+            voluptatibus, quia, quod voluptate natus doloribus voluptatum quas
+            quos doloremque dolorum?
+          </p>
+          <span className="mt-5">
+            Github Link: <a></a>
+          </span>
+        </div>
       </Box>
     </Modal>
   );

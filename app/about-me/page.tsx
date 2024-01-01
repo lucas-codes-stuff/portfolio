@@ -91,6 +91,9 @@ export default function About() {
                 alt="Python Logo"
               ></Image>
             </div>
+            <div className="mt-2">
+              <h1>...plus many more!</h1>
+            </div>
           </div>
         </div>
         <div
