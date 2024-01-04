@@ -15,9 +15,9 @@ export default function About() {
   const isAnyAccordionOpen = openAccordion !== null;
 
   return (
-    <main className="flex h-screen w-screen bg-base">
-      <div className="flex h-screen w-screen flex-row bg-main-texture">
-        <div className="absolute flex h-screen w-[50%] flex-col items-center justify-center text-highlight">
+    <main className="flex w-screen bg-base lg:h-screen lg:overflow-hidden">
+      <div className="flex w-screen flex-col bg-main-texture lg:h-screen lg:flex-row">
+        <div className="flex h-full w-full flex-col items-center justify-center text-highlight lg:absolute lg:h-screen lg:w-[50%]">
           <div className="mb-2">
             <Image
               alt="Image of Lucas Furlong"
@@ -97,8 +97,8 @@ export default function About() {
           </div>
         </div>
         <div
-          className={`relative ml-auto flex h-screen w-[50%] flex-col overflow-y-auto transition-all duration-[400ms] ${
-            isAnyAccordionOpen ? "pt-0" : "pt-[35vh]"
+          className={`flex h-full w-full flex-col transition-all duration-[400ms] lg:relative lg:ml-auto lg:h-screen lg:w-[50%] lg:overflow-y-auto ${
+            isAnyAccordionOpen ? "pt-0" : "lg:pt-[35vh]"
           }`}
         >
           {/* This pseudo-element will push the content down when no accordions are open */}
