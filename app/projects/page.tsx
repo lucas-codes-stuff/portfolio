@@ -126,7 +126,7 @@ export default function Projects() {
               </CardMedia>
               <CardContent className="flex h-full w-full items-center justify-center bg-complementary">
                 <h1 className="z-10 rounded bg-complementary px-1 text-center text-xl font-extrabold text-[#333333]">
-                  JamSync Mobile
+                  JamSync
                 </h1>
               </CardContent>
             </CardActionArea>
@@ -230,7 +230,7 @@ export default function Projects() {
               </CardMedia>
               <CardContent className="flex h-full w-full items-center justify-center bg-complementary">
                 <h1 className="z-10 rounded bg-complementary px-1 text-center text-xl font-extrabold text-[#333333]">
-                  Various Small Projects
+                  Various Extras
                 </h1>
               </CardContent>
             </CardActionArea>

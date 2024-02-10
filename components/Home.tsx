@@ -92,11 +92,11 @@ const HoverBox: React.FC<HoverBoxProps> = ({
           : position === "3"
           ? "translate-y-[105%] lg:translate-x-[-95%] lg:translate-y-[85%]"
           : ""
-      } overflow-hidden rounded-xl border border-orange-500 bg-transparent md:h-40 md:w-[45rem] lg:h-40 lg:w-[20rem] xl:h-64 xl:w-[25rem] 2xl:h-72 2xl:w-[30rem]`}
+      } overflow-hidden rounded-xl border border-orange-500 bg-transparent md:h-40 md:w-[45rem] lg:h-40 lg:w-[20rem] xl:h-64 xl:w-[25rem] laptop14:h-48 laptop14:w-[24rem] 2xl:h-72 2xl:w-[30rem]`}
       style={style}
     >
       <div
-        className="box absolute h-36 w-[25rem] overflow-hidden rounded-xl border border-orange-500 bg-transparent md:h-40 md:w-[45rem] lg:h-40 lg:w-[20rem] xl:h-64 xl:w-[25rem] 2xl:h-72 2xl:w-[30rem]"
+        className="box absolute h-36 w-[25rem] overflow-hidden rounded-xl border border-orange-500 bg-transparent md:h-40 md:w-[45rem] lg:h-40 lg:w-[20rem] xl:h-64 xl:w-[25rem] laptop14:h-48 laptop14:w-[24rem] 2xl:h-72 2xl:w-[30rem]"
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
       >
