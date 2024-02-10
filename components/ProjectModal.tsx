@@ -182,12 +182,43 @@ const ProjectModal: FC<ModalProps> = ({ open, id, close }) => {
           {id === "8" && (
             <>
               <h1 className="text-center text-3xl">Various Extras</h1>
-              <div className="flex flex-col">
-                <ul className="list-inside list-disc">
+              <div className="mt-5 flex flex-col">
+                <ul>
                   <li>
-                    test
+                    Loadcell Calculation Webapp for COMPTROL
                     <ul className="ml-5 list-inside list-disc">
-                      <li>test123</li>
+                      <li>
+                        Ported an older Visual Basic application to embedded web
+                        app for customer.
+                      </li>
+                      <li>
+                        Accurately implemented calculation procedures to draw
+                        accurate diagrams for loadcell mounting.
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="mt-5">
+                    Customer Portal Webapp for TQS
+                    <ul className="ml-5 list-inside list-disc">
+                      <li>
+                        Designed effective UI/UX for app that supports weekly
+                        and monthly consumer access.
+                      </li>
+                      <li>
+                        Maintained and upgraded app to support over 250+ users.
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="mt-5">
+                    PUTTY-Like Application Redevelopment
+                    <ul className="ml-5 list-inside list-disc">
+                      <li>
+                        Redesigned and improved older Visual C++ application.
+                      </li>
+                      <li>
+                        Converted Telnet net code (through plink) to upgraded
+                        SSH connectivity.
+                      </li>
                     </ul>
                   </li>
                 </ul>
